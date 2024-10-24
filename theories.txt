@@ -1,0 +1,31 @@
+Declaration: is when you are declare a variable and you do not assign it to a value
+Initialization: is when you declare a variable and assign a value to it.
+
+Datatypes: define the kind of values that variables can hold.
+Primitive Data types: represent single values and are immutable(they cannot be changed after creation)
+- Number
+- String
+- Boolean
+- undefined
+- Null
+- Symbol
+- BigInt
+
+Non-Primitive data types: these are objects and are mutable(can be changed after creation)
+(they are stored by reference)
+E.g: - Object: collections of key-value pairs
+    - Array: are ordered collections of elements/indexed from 0(they can store multiple values of any type)
+    - Function
+    - Date
+
+Summary Table:
+Feature	       Array	                 Object
+Structure	Ordered collection (list)	Key-value pairs (dictionary-like)
+Access	By numeric index	            By key (property name)
+Order	Maintains order of elements	    No guaranteed order of properties
+Length/Size	Has length property	        No built-in length property
+Use Case	Lists, ordered data	        Structured data, key-value pairs
+Iteration	for, forEach(), map()	    for...in, Object.keys(), entries()
+Mutability	Can add/remove/change elements	Can add/remove/change properties
+
+Arrays are best for ordered collections of similar items, while objects are ideal for associating values with named keys.

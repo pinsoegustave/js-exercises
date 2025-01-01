@@ -8,5 +8,5 @@ function getFormvalue() {
       console.log(x.elements[i].value);
      }  
    }
-
 }
+

@@ -6,4 +6,6 @@ function js_style() {
     text.style.fontFamily = "Comic Sans MS"
 
     text.style.color = "green"
+
+    text.style.backgroundColor = "yellow";
 }

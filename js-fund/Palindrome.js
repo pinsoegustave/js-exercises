@@ -3,4 +3,9 @@ function palindrome(str) {
 
     return cleanedString === cleanedString.split(" ").reverse().join('');
 }
+
 console.log(palindrome('eye'));
+console.log(palindrome('racecar'));
+console.log(palindrome('ada'));
+console.log(palindrome('mra'));
+console.log(palindrome('damn'));
